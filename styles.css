@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+body {
+  background-color: #f4f3ee;
+  color: #495e57;
+  font-family: 'Young Serif', serif;
+}
+
+.headerBrand {
+  width: 80%;
+  max-width: 500px;
+}
+
+.navLinks {
+  list-style-type: none;
+  color: #495e57;
+}
+
+.navA:hover {
+  text-decoration: underline;
+  text-underline-offset: .25rem;
+}
+
+.navA {
+  color: #495e57;
+  text-decoration: none;
+}
+
+.activeNavLink {
+  text-decoration: underline;
+  text-underline-offset: .25rem;
+}
+
+.brownBackgroundImage {
+  background-image: url("./img/bk-olive-branch.png");
+}
+
+.mainBackgroundImage {
+  background-image: url("./img/background.png");
+}
+
+.text-offwhite {
+  color: #f4f3ee;
+}
+
+.footerList {
+  list-style-type: none;
+}
+
+.footer {
+  background: #495e57;
+  color: #f4f3ee;
+}
+
+.footerA:hover {
+  text-decoration: underline;
+  text-underline-offset: .25rem;
+}
+
+.footerA {
+  color: #f4f3ee;
+  text-decoration: none;
+}
+
+.reservationDiv {
+  max-width: 250px;
+}
