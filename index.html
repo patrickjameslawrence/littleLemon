@@ -210,7 +210,7 @@
   <section id="reservations">
     <div class="brownBackgroundImage text-offwhite p-3">
       <h1 class="text-center m-5">Reserve a table</h1>
-      <form method="POST" action="/" class="text-center">
+      <form method="POST" netlify name="reservations" action="/" class="text-center">
         <div class="container-fluid text-start">
           <div class="row m-2">
             <div class="col-4"></div>
@@ -218,7 +218,7 @@
               <label class="h4" for="dateInput">When</label>
             </div>
             <div class="col-2">
-              <input type="datetime-local" id="dateInput" required/>
+              <input type="datetime-local" id="dateInput" name="date" required/>
             </div>
             <div class="col-4"></div>
           </div>
@@ -243,7 +243,7 @@
               <label class="h4" for="partySizeInput">Size of Party</label>
             </div>
             <div class="col-2 my-auto d-flex gap-2 align-items-center">
-              <input class="my-auto" type="range" min="1" max="12" id="partySizeInput" value="6" oninput="this.nextElementSibling.value = this.value"/>
+              <input class="my-auto" type="range" name="partySize" min="1" max="12" id="partySizeInput" value="6" oninput="this.nextElementSibling.value = this.value"/>
               <output class="my-auto">6</output>
             </div>
             <div class="col-4"></div>
